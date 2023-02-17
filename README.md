@@ -6,7 +6,7 @@ Bienvenue sur le projet d'intégration de maquette CryptoDash 💰. Ce projet co
 
 Le site CryptoDash permet d'afficher les cours des principales crypto-monnaies ainsi que leur évolution sur une période donnée. Les informations sont affichées sous forme de graphiques.
 
-🛠️ Ce projet a été réalisé en utilisant les technologies suivantes :
+🛠️ Technologies utilisées :
 
 HTML5
 CSS (avec Flexbox et Grid)
