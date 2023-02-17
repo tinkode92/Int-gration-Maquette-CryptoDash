@@ -1,4 +1,4 @@
-👋 Salut !
+👋 Hey !
 
 Bienvenue sur le projet d'intégration de maquette CryptoDash 💰. Ce projet consiste à intégrer une maquette graphique de CryptoDash en HTML, CSS pour créer un site web fonctionnel et responsive.
 
