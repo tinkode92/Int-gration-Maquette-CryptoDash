@@ -8,8 +8,8 @@ Le site CryptoDash permet d'afficher les cours des principales crypto-monnaies a
 
 🛠️ Technologies utilisées :
 
-HTML
-CSS (avec Flexbox et Grid)
+- HTML
+- CSS (avec Flexbox et Grid)
 Ce projet a été réalisé dans le cadre d'un exercice d'intégration de maquette dans un but pédagogique.
 
 N'hésitez pas à jeter un coup d'œil au site pour découvrir l'intégration de maquette CryptoDash ! 💻
