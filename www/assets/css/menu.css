@@ -1,0 +1,64 @@
+section.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 60px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+section.logout {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+section.menu div,
+section.logout div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    cursor: pointer;
+}
+
+section.menu div span,
+section.logout div span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.64;
+    transition: opacity .3s;
+}
+
+section.menu div:hover span,
+section.logout div:hover span {
+    opacity: 1;
+}
+
+section.menu div img,
+section.logout div img {
+    width: 30px;
+    height: 30px;
+}
+
+section.menu div.current {
+    background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
+    border-radius: 17px;
+    padding: 10px 20px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+section.menu div.current {
+    background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
+}
+
+section.menu div.current span {
+    color: black;
+    opacity: 1;
+}

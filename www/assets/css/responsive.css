@@ -1,0 +1,275 @@
+@media (max-width: 1250px) {
+    section.logo img {
+        width: 50px;
+    }
+    
+    section.logo h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1175px) {
+    section.header h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    body {
+        grid-template-columns: 6fr 3fr;
+        grid-template-areas: 
+            "header account"
+            "metrics sidebar"
+            "history sidebar";
+        padding-left: 20px;
+    }
+
+    section.logo { display: none }
+    section.menu { display: none }
+    section.logout { display: none }
+
+    section.header h1 {
+        font-size: 25px;
+    }
+
+    section.metrics .graph {
+        max-width: 60vw;
+    }
+}
+
+@media (max-width: 1020px) {
+    section.sidebar .transaction {
+        font-size: 12px;
+        width: 270px;
+    }
+}
+
+@media (max-width: 930px) {
+    section.metrics .tabs .bar span {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+    section.header {
+        padding-right: 20px;
+    }
+
+    section.header h1 {
+        font-size: 20px;
+    }
+
+    section.account img {
+        width: 40px;
+    }
+
+    section.sidebar .transaction {
+        font-size: 10px;
+        width: 220px;
+    }
+
+    section.sidebar .transaction img {
+        width: 35px;
+        height: 35px
+    }
+}
+
+@media (max-width: 840px) {
+    section.header .search {
+        width: 300px;
+    }
+
+    section.account img {
+        width: 30px;
+    }
+
+    section.sidebar .transaction {
+        width: 210px;
+    }
+
+    section.sidebar .asset {
+        padding: 10px 25px;
+    }
+}
+
+
+@media (max-width: 720px) {
+    body {
+        display: block;
+        height: fit-content;
+        overflow-y: scroll;
+    }
+
+    section.metrics {
+        grid-template-rows: 1fr 4fr;
+    }
+
+    section.metrics .graph {
+        max-width: 80vw;
+        margin: auto 6vw;
+    }
+
+    section.header h1 {
+        font-size: 30px;
+    }
+
+    section.header {
+        padding-right: 50px;
+    }
+
+    section.header .search {
+        width: 350px;
+    }
+
+    section.account { display: none }
+
+    section.history {
+        padding-right: 30px;
+    }
+
+    section.sidebar {
+        padding-left: 5px;
+    }
+
+    section.sidebar .transactions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 50px;
+    }
+
+    section.sidebar .transaction {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    section.sidebar .transaction img {
+        width: 50px;
+        height: 50px
+    }
+
+
+    section.sidebar .assets {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 10px;
+    }
+}
+
+@media (max-width: 590px) {
+    section.header .search {
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 540px) {
+    section.header h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    section.header {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    section.header h1 {
+        font-size: 30px;
+    }
+
+    section.header .search {
+        width: 100%;
+    }
+
+    section.metrics {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    
+    section.metrics .balance {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    section.metrics .balance h3 {
+        width: 100%;
+    }
+
+    section.metrics .tabs {
+        display: block;
+    }
+
+    section.metrics .tabs .bar {
+        width: 80vw;
+        justify-content: space-between;
+        margin: 0 6vw;
+    }
+
+    section.history .transaction {
+        display: grid;
+        grid-template-areas: 
+            "coin field-2 field-3"
+            "field-1 curve type";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px 10px;
+        margin-bottom: 10px;
+    }
+
+    section.history .transaction .field {
+        flex-direction: row;
+        gap: 10px
+    }
+
+    section.history .transaction img:first-of-type { grid-area: coin }
+    section.history .transaction .field.first { grid-area: field-1 }
+    section.history .transaction .field.second { grid-area: field-2 }
+    section.history .transaction .field.third { grid-area: field-3 }
+    section.history .transaction img:last-of-type { grid-area: curve }
+    section.history .transaction span { grid-area: type }
+
+    section.sidebar .transactions {
+        grid-template-columns: 1fr;
+    }
+
+    section.sidebar .transaction {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    section.sidebar .transaction img {
+        width: 40px;
+        height: 40px;
+    }
+
+    section.sidebar .assets {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 490px) {
+    section.history .transaction .field {
+        flex-direction: column;
+    }
+
+    section.history .transaction img:first-child {
+        height: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    section.metrics .tabs .bar {
+        width: 80vw;
+        justify-content: space-between;
+        margin: 0 6vw;
+    }
+}
